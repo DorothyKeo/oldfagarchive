@@ -1,0 +1,107 @@
+@font-face {
+	font-family: "G";
+	src: url("Resources/LinLibertine_aBL.ttf");
+}
+@font-face {
+	font-family: "F";
+	src: url("Resources/DS-DIGI.TTF");
+}
+
+
+a:link {
+	color: #EBE2CA;
+  text-decoration: none;
+}
+
+a:visited {
+	color: #EBE2CA;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EBE2CA ;
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px #c16b50;
+  
+}
+
+::placeholder{
+  color: #EBE2CA;
+  text-align: center;
+}
+
+input{
+  border-color: white;
+  border-style:solid;
+}
+
+input:focus {
+  outline: none;
+  border-color: #EBE2CA;
+  box-shadow: 0 0 10px #EBE2CA;
+  color: #EBE2CA;
+}
+
+body {
+    background-image: url("Resources/obsidian.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EBE2CA;
+    margin-right: 0%;
+    margin-left: 0%;
+    
+    
+  }
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "G";
+    text-shadow: 3px 3px 3px #c16b50;
+}
+
+.navbar {
+  text-align: center;
+  position: relative;
+  font-size: large;
+  font-style: italic;
+}
+
+.search {
+  margin-left: 2.5%;
+  position: absolute;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.scrolling{
+  font-size: 30PX;
+  font-style: italic;
+  font-weight: bold;
+  background-image: url("Resources/ticker_lcd.jpg");
+  background-repeat:repeat-x;
+  background-size:cover;
+  font-family: "F";
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-color: #EBE2CA;
+  border-style: solid;
+  
+  
+
+}
+
+.blur {
+  filter: blur(10px);
+}
+
+
+img{
+  max-width:200px;
+  max-height:200px;
+}

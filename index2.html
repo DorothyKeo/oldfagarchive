@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+    <title>Oldfag Mapart</title>
+    <link rel="icon" type="image/png" href="Resources/favicon.ico" sizes="16x16">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    
+    
+    <body>
+        <h1>OLDFAG ARCHIVE</h1>
+        <div class="scrolling"><marquee direction="right"><a href=https://discord.gg/vJpwNhcJTq>Ancap Discord</a><span style="display:inline-block; width: 200px;"></span><a href=https://discord.gg/jxwcbey4NT>Oldfag Mapart & Collectibles Discord</a><span style="display:inline-block; width: 200px;"></span><a href=https://discord.gg/FzpytUMMf2>Oldfag Archive Discord</a></marquee></div>
+
+
+            
+        </div>
+
+        <p style="text-align: center;">This is an archive of most public maparts on the Anarchy server <a href="https://oldfag.org/index.html#area4">Oldfag.org</a>.</p>
+
+        <div class="navbar"><a href="index.html"> 1x1 </a><br><a href="index2.html"> Other sizes </a></div><br>
+
+        <div class="search" >
+         <h3 style="text-align: center;">SEARCH</h3>
+        <input type="text" id="myInput" onkeyup="NameFunction()" placeholder="Mapart Name" style="background-color: rgb(82, 82, 82)"><br><br>
+        <input type="text" id="myInputs" onkeyup="CreatorFunction()" placeholder="Mapart Creator" style="background-color: rgb(82, 82, 82)"><br><br>
+      </div>
+      
+
+
+        <script>
+         function NameFunction() {
+           // Declare variables
+           var input, filter, table, tr, td, i, txtValue;
+           input = document.getElementById("myInput");
+           filter = input.value.toUpperCase();
+           table = document.getElementById("myTable");
+           tr = table.getElementsByTagName("tr");s
+         
+           // Loop through all table rows, and hide those who don't match the search query
+           for (i = 0; i < tr.length; i++) {
+             td = tr[i].getElementsByTagName("td")[0];
+             if (td) {
+               txtValue = td.textContent || td.innerText;
+               if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                 tr[i].style.display = "";
+               } else {
+                 tr[i].style.display = "none";
+               }
+             }
+           }
+         }
+         </script>
+
+<script>
+   function CreatorFunction() {
+     // Declare variables
+     var input, filter, table, tr, td, i, txtValue;
+     input = document.getElementById("myInputs");
+     filter = input.value.toUpperCase();
+     table = document.getElementById("myTable");
+     tr = table.getElementsByTagName("tr");
+   
+     // Loop through all table rows, and hide those who don't match the search query
+     for (i = 0; i < tr.length; i++) {
+       td = tr[i].getElementsByTagName("td")[2];
+       if (td) {
+         txtValue = td.textContent || td.innerText;
+         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+           tr[i].style.display = "";
+         } else {
+           tr[i].style.display = "none";
+         }
+       }
+     }
+   }
+   </script>
+
+        <table id="myTable" align="center" border="2" bordercolor="white" width="50%" style="background-color:rgb(82, 82, 82)"   cellpadding="4" cellspacing="0">
+            
+            <tr>
+               <th>Map Name</th>
+               <th>Size</th>
+               <th>Creator</th>
+               <th>Map</th>
+            </tr>
+
+            <script>
+               function spoiler(elem) {
+                    elem.classList.toggle('blur');
+               }
+            </script>
+
+
+            <!--JPG-->
+
+            <tr align="center">
+               <td>Pastafari</td>
+               <td>2x1</td>
+               <td>Kapibar1</td>
+               <td><img src="Maps/jpg/1.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Smoking</td>
+               <td>4x5</td>
+               <td>Unknown</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/2.jpg" loading="lazy" width="240px" height="220px"></td>
+            </tr>
+            <tr align="center">
+               <td>Hentai Bitch</td>
+               <td>2x2</td>
+               <td>Unknown</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/3.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>1x2</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/4.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Furry Bunny</td>
+               <td>1x2</td>
+               <td>Anarch33</td>
+               <td><img src="Maps/jpg/5.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>LolRiTTeRBot</td>
+               <td>1x2</td>
+               <td>Chocoman01</td>
+               <td><img src="Maps/jpg/6.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Mai and Sakuta</td>
+               <td>2x2</td>
+               <td>Dainert</td>
+               <td><img src="Maps/jpg/7.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>BIG OL TIDDIES</td>
+               <td>1x2</td>
+               <td>cubert3d and ThaBigG</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/8.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Simpsons Abbey Road</td>
+               <td>2x1</td>
+               <td>SWQRDS</td>
+               <td><img src="Maps/jpg/9.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>1x2</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/10.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Christmas 2019</td>
+               <td>2x3</td>
+               <td>Arount, DogKing, and SWQRDS</td>
+               <td><img src="Maps/jpg/11.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>1x2</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/12.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Dream Gf</td>
+               <td>4x2</td>
+               <td>Nelag and Minebark</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/13.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>GeNk Iscariot</td>
+               <td>3x6</td>
+               <td>Hifunc</td>
+               <td><img src="Maps/jpg/14.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>It's Not Hentai... It's Art</td>
+               <td>3x6</td>
+               <td>Blakepane</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/15.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>Unknown</td>
+               <td>Unknown</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/16.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Swastika</td>
+               <td>2x1</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/17.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Pewdipie Forehead</td>
+               <td>2x1</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/18.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>@Xormios</td>
+               <td>1x2</td>
+               <td>bruh77</td>
+               <td><img src="Maps/jpg/19.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>Unknown</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/20.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>1x2</td>
+               <td>Unknown</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/21.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>2x2</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/22.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>2x1</td>
+               <td>Unknown</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/23.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>2x1</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/24.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Star Wars Logo</td>
+               <td>2x1</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/25.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Running Horse</td>
+               <td>1x2</td>
+               <td>ReHix, kocicka ashley, and Alverid</td>
+               <td><img src="Maps/jpg/26.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Moon walk</td>
+               <td>2x1</td>
+               <td>jepp</td>
+               <td><img src="Maps/jpg/27.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>God and Adam Michelangelo</td>
+               <td>2x1</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/28.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Longcat is long</td>
+               <td>1x2</td>
+               <td>Merlinou</td>
+               <td><img src="Maps/jpg/29.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>1x2</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/30.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Tian Tan Buddha</td>
+               <td>2x2</td>
+               <td>TheKillerBuddha</td>
+               <td><img src="Maps/jpg/31.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Suicide Boys</td>
+               <td>2x2</td>
+               <td>Jacks1357</td>
+               <td><img src="Maps/jpg/32.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>The Lighthouse (Missing Two Maps)</td>
+               <td>2x2</td>
+               <td>Excc</td>
+               <td><img src="Maps/jpg/33.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Sewayaki Kitsune</td>
+               <td>2x3?</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/34.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Monokuma</td>
+               <td>Dainert</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/35.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Confederate Flag</td>
+               <td>1x2</td>
+               <td>Sirpixelalot and Sympations</td>
+               <td><img src="Maps/jpg/36.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>1x2</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/37.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Phoenix Bay</td>
+               <td>4x4</td>
+               <td>Jacks1357</td>
+               <td><img src="Maps/jpg/38.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Pink Whitney</td>
+               <td>2x3</td>
+               <td>Jacks1357</td>
+               <td><img src="Maps/jpg/39.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>Unknown</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/40.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Tokyo Ghoul</td>
+               <td>1x2</td>
+               <td>Kapibar1</td>
+               <td><img src="Maps/jpg/41.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>D.A.R.E</td>
+               <td>1x2</td>
+               <td>piff_chiefington</td>
+               <td><img src="Maps/jpg/42.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>End Ship</td>
+               <td>2x2</td>
+               <td>tckrtxa</td>
+               <td><img src="Maps/jpg/43.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>2x2</td>
+               <td>Jacks1357</td>
+               <td><img src="Maps/jpg/44.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>The Imperials are in need of YOU</td>
+               <td>3x4</td>
+               <td>EvRO</td>
+               <td><img src="Maps/jpg/45.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Cyberpunk</td>
+               <td>2x2</td>
+               <td>Jacks1357</td>
+               <td><img src="Maps/jpg/46.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Join the navy</td>
+               <td>1x2</td>
+               <td>Yellow_cloud</td>
+               <td><img src="Maps/jpg/47.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Uncle Sam</td>
+               <td>1x2</td>
+               <td>Nuke</td>
+               <td><img src="Maps/jpg/48.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Carbonari</td>
+               <td>3x2</td>
+               <td>tckrtxa</td>
+               <td><img src="Maps/jpg/49.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Viva la Resistance</td>
+               <td>2x2</td>
+               <td>Yellow_cloud</td>
+               <td><img src="Maps/jpg/50.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>2x2</td>
+               <td>Unknown</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/51.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>HUEGH</td>
+               <td>3x2</td>
+               <td>tckrtxa AND Cript_real</td>
+               <td><img src="Maps/jpg/52.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>3x1</td>
+               <td>Unknown</td>
+               <td><img src="Maps/jpg/53.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>More than a Game</td>
+               <td>2x2</td>
+               <td>Excc</td>
+               <td><img src="Maps/jpg/54.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Optics</td>
+               <td>1x2</td>
+               <td>tckrtxa</td>
+               <td><img src="Maps/jpg/55.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Unknown</td>
+               <td>1x2</td>
+               <td>Unknown</td>
+               <td><img class="blur" onclick="spoiler(this)" src="Maps/jpg/56.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Legion of the Black Sun</td>
+               <td>1x1</td>
+               <td>KyzoZM</td>
+               <td><img src="Maps/jpg/57.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Shiro</td>
+               <td>2x2</td>
+               <td>Dainert</td>
+               <td><img src="Maps/jpg/58.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Neon Genesis</td>
+               <td>5x3</td>
+               <td>Christiantoons</td>
+               <td><img src="Maps/jpg/59.jpg" loading="lazy"></td>
+            </tr>
+            <tr align="center">
+               <td>Dolphins Super Mario</td>
+               <td>2x1</td>
+               <td>Christiantoons</td>
+               <td><img src="Maps/jpg/60.jpg" loading="lazy"></td>
+            </tr>
+          
+            
+            
+            
+            
+            
+        </table>
+        
+
+
+
+
+
+
+        
+    </body>
+</html>
